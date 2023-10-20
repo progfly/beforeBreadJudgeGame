@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>test</title>
+  <link rel="stylesheet" href="gazouBreadJudgeGame.css">
+</head>
+<body>
+
+  <div class="clearfix">
+  <div><img id="logo" src="./img/log.png" width="14" height="14"></div>
+  <h5 id="titleArea"></h5>
+</div>
+
+
+<div id="ru-ruArea">
+<p><b>~ルール説明~</b><br>見本と同じパンが流れて来たら → y(出荷)<br>見本と違うパンが流れて来たら → n(廃棄)</p>
+<div id="judgeRu-ru">
+  <p><font color="red">時給up</font>   1秒以内に正しい判断 ×３<br><font color="blue">時給down</font>   見本と違うパンを出荷 ×３<br><font color="blue">罰金</font>   見本通りのパンを廃棄したら買い取り(100円)<br>※注意   勤務時間に対し判断回数が少ないと、給料なし</p>
+</div>
+</div>
+
+<div class="clearfix">
+  <div><img id="answer" src="./img/board.png" width="120"></div>
+  <div><img id="judgeArea" src="./img/siro.png" width="100"></div>
+  <div><img id="updownArea" src="./img/han_siro.png" width="70"></div>
+  <div id="displayArea" width="100"></div>
+</div>
+
+<div class="clearfix">
+  <div id="quiz">
+  <div><img id='quizArea' src="./img/siro.png" width="100" height="100"></div>
+  <div><img id="konbea" src="./img/konbea.png" width="500"></div>
+  </div>
+</div>
+
+<div id="buttonArea">
+  <button id="gameStart">開始</button>
+  <button id="gameStop">終了</button>
+  
+</div>
+
+<div id="resrutArea"></div>
+
+  
+
+  <script src="gazouBreadJudgeGame.js"></script>
+  
+
+</body>
+</html>
