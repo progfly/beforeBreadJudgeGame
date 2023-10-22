@@ -317,7 +317,7 @@ gameStart.addEventListener("click",()=>{
   console.log(seikaisuu);
 
   let sixGameSeconds = gameSeconds.toFixed(6);
-  let hanntei = sixGameSeconds/3.000000;
+  let hanntei = sixGameSeconds/4.000000;
 
   console.log(hanntei);
   console.log(seikaisuu);
@@ -328,7 +328,7 @@ gameStart.addEventListener("click",()=>{
     resrutArea.innerText = '給料明細\n'+'　判断が遅いので、給料0円　買い取り個数は、'+ret[1]+'個\n'+'　'+-buyMony+'円支払ってください。';
   }
 else{
-  resrutArea.innerText = '給料明細\n'+'　給料は、'+gameSalary.toFixed(6)+'円　買い取り個数は、'+ret[1]+'個\n'+'　収支は、'+sum.toFixed(6)+'円です。';
+  resrutArea.innerText = '給料明細\n'+'　勤務時間：'+sixGameSeconds+'秒　給料：'+gameSalary.toFixed(6)+'円　買い取り：'+ret[1]+'個\n'+'　収支は、'+sum.toFixed(6)+'円です。';
 }
 
   })
