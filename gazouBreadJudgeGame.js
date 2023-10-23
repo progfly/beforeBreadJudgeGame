@@ -170,20 +170,20 @@ console.log('ここ'+imageJudge);
       niceCount++
       if( niceCount % 3 === 0){
         upCount++
-        updownArea.src = './img/up.png'
+        updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/up.png?raw=true'
       }
     }
     
     if( resrut === 2 ){
       buyCount++
-      updownArea.src = './img/buy.png'
+      updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/buy.png?raw=true'
     }
 
     if( resrut === 3 ){
       badCount++
       if( badCount % 3 === 0){
         downCount++
-        updownArea.src = './img/down.png'
+        updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/down.png?raw=true'
       }
     }
     
