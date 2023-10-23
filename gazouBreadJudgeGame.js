@@ -1,7 +1,7 @@
 //画像ランダム用
 const answer = document.getElementById('answer');
 const quizArea = document.getElementById('quizArea');
-const answerImages = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/melonpan_board.png?raw=true', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/syokupan_board.png?raw=true', './img/mushi_board.png'];
+const answerImages = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/melonpan_board.png?raw=true', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/syokupan_board.png?raw=true', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/mushi_board.png?raw=true'];
 const ZeroquizImages = ['./img/pan_melonpan.png','./img/pan_melonpan.png','./img/pan_melonpan.png','./img/pan_melonpan.png','./img/pan_melonpan.png','./img/food_melonpan.png', './img/bread_syokupan.png', './img/bad1_pan_melonpan.png', './img/bad2_pan_melonpan.png', './img/bad3_pan_melonpan.png'];
 const OnequizImages = ['./img/bread_syokupan.png','./img/bread_syokupan.png','./img/bread_syokupan.png','./img/bread_syokupan.png','./img/bread_syokupan.png','./img/bread_syokupan_usui.png', './img/pan_toast_kongari.png', './img/pan_mushipan_yellow.png','./img/bad1_bread_syokupan.png','./img/bad2_bread_syokupan.png'];
 const TwoquizImages = ['./img/pan_mushipan_yellow.png','./img/pan_mushipan_yellow.png','./img/pan_mushipan_yellow.png','./img/pan_mushipan_yellow.png','./img/pan_mushipan_yellow.png','./img/pan_mushipan_white.png', './img/pan_melonpan.png', './img/bad1_pan_mushipan_yellow.png', './img/bad2_pan_mushipan_yellow.png', './img/bad3_pan_mushipan_yellow.png'];
