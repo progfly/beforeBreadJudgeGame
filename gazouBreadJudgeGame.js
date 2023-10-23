@@ -74,7 +74,7 @@ function image(){
 
 function start(){
 
-  updownArea.src = './img/han_siro.png';
+  updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/han_siro.png?raw=true';
 
   let startTime = Date.now();
 
