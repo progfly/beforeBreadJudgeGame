@@ -113,7 +113,7 @@ console.log('ここ'+imageJudge);
       if(keyname === 'y'){
         //quizArea.src = './img/italian.png';
         countBread++;
-        judgeArea.src = './img/maru.png';
+        judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/maru.png?raw=true';
         //judgeArea.innerText = '正解';
 
         if(seconds <= 1){
@@ -124,7 +124,7 @@ console.log('ここ'+imageJudge);
         stop()
       }
       if(keyname === 'n'){
-        judgeArea.src = './img/batu.png';
+        judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/batu.png?raw=true';
         //judgeArea.innerText = '不正解';
 
         salary(2)
@@ -133,13 +133,13 @@ console.log('ここ'+imageJudge);
     else{
       if(keyname === 'y')
       {
-        judgeArea.src = './img/batu.png';
+        judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/batu.png?raw=true';
         //judgeArea.innerText = 'A不正解';
         salary(3)
       }
       if(keyname === 'n')
       {
-        judgeArea.src = './img/maru.png';
+        judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/maru.png?raw=true';
         //judgeArea.innerText = 'A正解';
         countNon++;
 
