@@ -213,7 +213,7 @@ console.log('ここ'+imageJudge);
   
 
   function stop(){
-    quizArea.src = './img/siro.png';
+    quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png?raw=true';
   
     setTimeout(() => {
       start()
@@ -279,7 +279,7 @@ gameStart.addEventListener("click",()=>{
 
   gameStop.addEventListener("click",()=>{
 
-    quizArea.src = './img/siro.png';
+    quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png?raw=true';
 
     let currentGameTime = Date.now();
     let gameSeconds = (currentGameTime - startGameTime) / 1000;
@@ -347,7 +347,7 @@ else{
 
 /*
 function reset(){
-  quizArea.src = './img/siro.png';
+  quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png?raw=true';
   displayArea.innerText = 'おわり';
 
 let ret = salary(4);
