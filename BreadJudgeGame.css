@@ -1,0 +1,106 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#logo{
+    float: left;
+  padding: 3px;
+  background-color: #ec404b;
+}
+#titleArea{
+  float: left;
+  margin: auto;
+  color: #ffffff;
+  background-color: #ec404b;
+  margin-bottom: 10px;
+}
+
+
+#ru-ruArea{
+
+  text-align: center;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #f3fbff;
+  border: 2px skyblue dashed;
+}
+#judgeRu-ru{
+
+  font-size: x-small;
+  text-align: left;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+#answerArea{
+  float: left;
+  margin: auto;
+}
+#judgeArea{
+  float: left;
+  font-size: x-large;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+
+}
+#updownArea{
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+
+}
+#displayArea{
+  float: right;
+  font-size: x-large;
+  margin-right: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#quiz{
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#quizArea{
+  margin: auto;
+}
+#konbea{
+  clear: left;
+  margin: auto;
+}
+
+#buttonArea{
+  text-align: center;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+button {
+  padding: 5px 20px;
+  background-color: #337ab7;
+  color: #fdffff;
+  border-style: none;
+}
+
+#resrutArea{
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
