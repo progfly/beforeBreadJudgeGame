@@ -9,13 +9,13 @@ const resrutArea = document.getElementById("resrutArea");
 const answerArea = document.getElementById('answerArea');
 const quizArea = document.getElementById('quizArea');
 //見本画像
-const answerImages = ['./img/melonpan_board.png', './img/syokupan_board.png', './img/mushi_board.png'];
+const answerImages = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/melonpan_board.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/syokupan_board.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/mushi_board.png'];
 //No0～4正しい画像　5~9間違え画像
-const ZeroquizImages = ['./img/pan_melonpan.png', './img/pan_melonpan.png', './img/pan_melonpan.png', './img/pan_melonpan.png', './img/pan_melonpan.png', './img/food_melonpan.png', './img/bread_syokupan.png', './img/bad1_pan_melonpan.png', './img/bad2_pan_melonpan.png', './img/bad3_pan_melonpan.png'];
-const OnequizImages = ['./img/bread_syokupan.png', './img/bread_syokupan.png', './img/bread_syokupan.png', './img/bread_syokupan.png', './img/bread_syokupan.png', './img/bread_syokupan_usui.png', './img/pan_toast_kongari.png', './img/pan_mushipan_yellow.png', './img/bad1_bread_syokupan.png', './img/bad2_bread_syokupan.png'];
-const TwoquizImages = ['./img/pan_mushipan_yellow.png', './img/pan_mushipan_yellow.png', './img/pan_mushipan_yellow.png', './img/pan_mushipan_yellow.png', './img/pan_mushipan_yellow.png', './img/pan_mushipan_white.png', './img/pan_melonpan.png', './img/bad1_pan_mushipan_yellow.png', './img/bad2_pan_mushipan_yellow.png', './img/bad3_pan_mushipan_yellow.png'];
+const ZeroquizImages = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/food_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad1_pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad2_pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad3_pan_melonpan.png'];
+const OnequizImages = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bread_syokupan_usui.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_toast_kongari.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad1_bread_syokupan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad2_bread_syokupan.png'];
+const TwoquizImages = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_mushipan_white.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/pan_melonpan.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad1_pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad2_pan_mushipan_yellow.png', 'https://github.com/progfly/BreadJudgeGame/blob/main/img/bad3_pan_mushipan_yellow.png'];
 
-const images = ['./img/log.png','./img/board.png','./img/siro.png','./img/han_siro.png','./img/konbea.png','./img/maru.png','./img/batu.png','./img/up.png','./img/down.png','./img/buy.png'];
+const images = ['https://github.com/progfly/BreadJudgeGame/blob/main/img/log.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/board.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/han_siro.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/konbea.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/maru.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/batu.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/up.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/down.png','https://github.com/progfly/BreadJudgeGame/blob/main/img/buy.png'];
 //判断表示
 const judgeArea = document.getElementById('judgeArea');
 //時給表示
@@ -128,7 +128,7 @@ var noJudge;
 
 gameStop.addEventListener("click", () => {
 
-  quizArea.src = './img/siro.png';
+  quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png';
 
 
   noJudge=1;
@@ -229,7 +229,7 @@ var startTime;
 
 function start() {
 
-  updownArea.src = './img/han_siro.png';
+  updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/han_siro.png';
 
   startTime = Date.now();
 
@@ -269,9 +269,9 @@ function judge(e) {
 
   if (imageJudge === 1) {
     if (keyname === 'y') {
-      //quizArea.src = './img/italian.png';
+      //quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/italian.png';
       countBread++;
-      judgeArea.src = './img/maru.png';
+      judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/maru.png';
       //judgeArea.innerText = '正解';
       if (seconds <= 1) {
         salary(1)
@@ -279,7 +279,7 @@ function judge(e) {
       stop()
     }
     if (keyname === 'n') {
-      judgeArea.src = './img/batu.png';
+      judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/batu.png';
       //judgeArea.innerText = '不正解';
 
       salary(2)
@@ -287,12 +287,12 @@ function judge(e) {
   }
   else {
     if (keyname === 'y') {
-      judgeArea.src = './img/batu.png';
+      judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/batu.png';
       //judgeArea.innerText = 'A不正解';
       salary(3)
     }
     if (keyname === 'n') {
-      judgeArea.src = './img/maru.png';
+      judgeArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/maru.png';
       //judgeArea.innerText = 'A正解';
       countNon++;
 
@@ -319,20 +319,20 @@ function salary(resrut) {
     niceCount++
     if (niceCount % 3 === 0) {
       upCount++
-      updownArea.src = './img/up.png'
+      updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/up.png'
     }
   }
 
   if (resrut === 2) {
     buyCount++
-    updownArea.src = './img/buy.png'
+    updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/buy.png'
   }
 
   if (resrut === 3) {
     badCount++
     if (badCount % 3 === 0) {
       downCount++
-      updownArea.src = './img/down.png'
+      updownArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/down.png'
     }
   }
 
@@ -362,7 +362,7 @@ function salary(resrut) {
 
 
   function stop(){
-    quizArea.src = './img/siro.png';
+    quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png';
    setTimeout(() => {
       start()
     },200);
@@ -393,7 +393,7 @@ function salary(resrut) {
 
 /*
 function reset(){
-  quizArea.src = './img/siro.png';
+  quizArea.src = 'https://github.com/progfly/BreadJudgeGame/blob/main/img/siro.png';
   displayArea.innerText = 'おわり';
 
 let ret = salary(4);
